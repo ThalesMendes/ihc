@@ -10644,3 +10644,37 @@ a.text-dark:focus {
   }
 }
 
+body {
+  background-color: #FDF6F6;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  border-radius: 50px !important;
+  background: #f1f3f4 !important;
+}
+
+.card {
+  border: none;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.botao-cadastrar {
+  margin-top: 5%;
+}
+
+.btn {
+  border-radius: 50px;
+}
+
+.btn-secondary {
+  color: #1b1e21 !important;
+  background-color: #FDF6F6;
+  border: 2px solid #3490dc;
+}
+
+.btn-wider {
+  width: 50%;
+}
+
