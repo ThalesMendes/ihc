@@ -29,3 +29,5 @@ Route::group(['middleware' => 'auth'],
         Route::get('user/{user}', 'UserController@index')->name('index');
     }
 );
+
+Route::resource('instituicao', 'InstituicaoController');

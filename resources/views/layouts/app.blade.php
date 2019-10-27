@@ -17,17 +17,17 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="{!! asset('css/all.min.css') !!}">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm navbar-red">
+        <nav class="navbar navbar-expand-md navbar-dark bg-red shadow-sm navbar-red">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }} <img alt="logo" width="10%" src="{{asset('img/hands-helping-solid.svg')}}">
+                    {{ config('app.name', 'Laravel') }}
                 </a>
 
                 @if(Auth::check())
@@ -44,8 +44,8 @@
 
                     <!-- Right Side Of Navbar -->
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a class="nav-link" href="">Teste</a></li>
-                            <li class="nav-item"><a class="nav-link" href="">Teste</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{URL::to('home')}}">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{URL::to('instituicao')}}">Todas Instituições</a></li>
 
                             <li class="nav-item">
                                 <a class="nav-link" href="#"

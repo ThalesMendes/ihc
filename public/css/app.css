@@ -10654,6 +10654,18 @@ input {
   background: #f1f3f4 !important;
 }
 
+.bg-red {
+  background-color: #d63031;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
 .card {
   border: none;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
@@ -10676,5 +10688,122 @@ input {
 
 .btn-wider {
   width: 50%;
+}
+
+.titulo-secao {
+  width: 80%;
+  margin-right: 5%;
+  margin-bottom: 3%;
+  font-size: 18px;
+}
+
+.titulo-secao p {
+  padding: 0 5%;
+  border-left: 3px solid #EA1515;
+}
+
+.card-pequeno {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 5%;
+}
+
+@media (min-width: 300px) {
+  .card-pequeno {
+    min-width: 300px;
+  }
+}
+
+@media (min-width: 321px) {
+  .card-pequeno {
+    min-width: 350px;
+  }
+}
+
+@media (min-width: 376px) {
+  .card-pequeno {
+    min-width: 380px;
+  }
+}
+
+.card-grande {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 5%;
+}
+
+@media (min-width: 300px) {
+  .card-grande {
+    width: 270px;
+    min-height: 300px;
+  }
+}
+
+@media (min-width: 321px) {
+  .card-grande {
+    width: 320px;
+    min-height: 300px;
+  }
+}
+
+@media (min-width: 376px) {
+  .card-grande {
+    width: 350px;
+    min-height: 300px;
+  }
+}
+
+.nome-pessoa {
+  display: inline-block;
+  padding: 15px 5px 0 15px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.localizacao-pessoa {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0 5px 10px 15px;
+  color: #303030;
+}
+
+.nome-instituicao {
+  font-size: 16px;
+  padding: 5%;
+  margin-bottom: 0;
+}
+
+.imagem-instituicao {
+  border-radius: 10%;
+  width: 50%;
+  max-height: 116px;
+}
+
+.endereco-instituicao {
+  margin-top: 10%;
+  color: #2B2B2B;
+}
+
+#pagina-instituicao img {
+  width: 80%;
+  border-radius: 10%;
+}
+
+.titulo-pagina {
+  font-size: 18px;
+}
+
+.borda-embaixo {
+  border-bottom: 2px solid #EA1515;
+}
+
+.secao-instituicao {
+  font-size: 16px;
+}
+
+.link {
+  color: #d63031;
 }
 
