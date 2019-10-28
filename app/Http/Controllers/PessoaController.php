@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Pessoa;
 use Illuminate\Http\Request;
 
 class PessoaController extends Controller
@@ -13,7 +14,9 @@ class PessoaController extends Controller
      */
     public function index()
     {
-        return view('pessoa.index');
+        $pessoas = Pessoa::latest()->paginate(4);
+
+        return view('pessoa.index', compact('pessoas'));
     }
 
 

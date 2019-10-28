@@ -36,6 +36,7 @@ class LoginController extends Controller
     {
         $userId = Auth::id();
 
+
         return "user/$userId";
     }
 }
