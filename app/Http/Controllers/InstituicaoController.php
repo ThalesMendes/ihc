@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Instituicao;
 use Illuminate\Http\Request;
 
 class InstituicaoController extends Controller
@@ -9,7 +10,9 @@ class InstituicaoController extends Controller
 
     public function index()
     {
-        return view('instituicao.index');
+        $instituicoes = Instituicao::latest()->paginate(4);
+
+        return view('instituicao.index', compact('instituicoes'));
     }
 
     public function show()

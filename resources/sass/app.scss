@@ -83,6 +83,40 @@ input{
     }
 }
 
+.card-medio {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px hsla(0, 0%, 0%, 15%);
+    margin: 2%;
+    height: 220px;
+
+    @media(min-width: 300px) {
+        width: 250px;
+    }
+
+    @media(min-width: 321px) {
+        width: 280px;
+    }
+
+    @media(min-width: 376px) {
+        width: 180px;
+    }
+
+    .nome {
+        padding: 10% 8% 0 8%;
+        text-align: center;
+    }
+
+    hr {
+        width: 80%;
+    }
+
+    .endereco {
+        color: #303030;
+        padding: 0 5%;
+        text-align: center;
+    }
+}
 
 .card-grande {
     background-color: white;
@@ -146,7 +180,8 @@ input{
 }
 
 .titulo-pagina {
-    font-size: 18px
+    font-size: 18px;
+    text-align: center;
 }
 
 .borda-embaixo {
@@ -161,3 +196,21 @@ input{
     color: #d63031
 }
 
+.paginacao {
+    text-align: center;
+    margin-top: 5%;
+
+    p {
+        font-size: 16px;
+    }
+
+    ul {
+        display: inline-block !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    li {
+        float: left !important;
+    }
+}

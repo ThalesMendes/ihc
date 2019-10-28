@@ -10727,6 +10727,47 @@ input {
   }
 }
 
+.card-medio {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  margin: 2%;
+  height: 220px;
+}
+
+@media (min-width: 300px) {
+  .card-medio {
+    width: 250px;
+  }
+}
+
+@media (min-width: 321px) {
+  .card-medio {
+    width: 280px;
+  }
+}
+
+@media (min-width: 376px) {
+  .card-medio {
+    width: 180px;
+  }
+}
+
+.card-medio .nome {
+  padding: 10% 8% 0 8%;
+  text-align: center;
+}
+
+.card-medio hr {
+  width: 80%;
+}
+
+.card-medio .endereco {
+  color: #303030;
+  padding: 0 5%;
+  text-align: center;
+}
+
 .card-grande {
   background-color: white;
   border-radius: 20px;
@@ -10793,6 +10834,7 @@ input {
 
 .titulo-pagina {
   font-size: 18px;
+  text-align: center;
 }
 
 .borda-embaixo {
@@ -10805,5 +10847,24 @@ input {
 
 .link {
   color: #d63031;
+}
+
+.paginacao {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.paginacao p {
+  font-size: 16px;
+}
+
+.paginacao ul {
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.paginacao li {
+  float: left !important;
 }
 

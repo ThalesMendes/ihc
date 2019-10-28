@@ -29,7 +29,7 @@
         </div>
 
         <div class="text-center col-sm-12">
-            <a href="#" class="link">Ver todos</a>
+            <a href="#" class="link">Ver todos <i class="fas fa-arrow-right"></i></a>
         </div>
 
 
@@ -67,7 +67,7 @@
         </div>
 
         <div class="text-center col-sm-12">
-            <a href="{{URL::to('instituicao')}}" class="link">Ver todos</a>
+            <a href="{{URL::to('instituicao')}}" class="link"> Ver todos <i class="fas fa-arrow-right"></i></a>
         </div>
 
     </div>

@@ -31,3 +31,4 @@ Route::group(['middleware' => 'auth'],
 );
 
 Route::resource('instituicao', 'InstituicaoController');
+Route::resource('pessoa', 'PessoaController');

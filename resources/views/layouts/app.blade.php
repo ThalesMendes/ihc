@@ -13,11 +13,12 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/all.js') }}" defer></script>
+
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{!! asset('css/all.min.css') !!}">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -26,6 +27,9 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-red shadow-sm navbar-red">
             <div class="container">
+
+                <a href="{{URL::previous()}}"><i style="color: white; font-size: 18px" class="fas fa-arrow-left"></i></a>
+
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
@@ -46,6 +50,7 @@
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a class="nav-link" href="{{URL::to('home')}}">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{URL::to('instituicao')}}">Todas Instituições</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{URL::to('pessoa')}}">Todas Pessoas</a></li>
 
                             <li class="nav-item">
                                 <a class="nav-link" href="#"
