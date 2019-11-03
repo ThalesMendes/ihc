@@ -8,7 +8,8 @@ As telas foram feitas com HTML, CSS e JS normais, mas tendo em mente o tamanho
 da tela de um celular, então se for rodar local, aperte F12 e selecione as telas pequenas, pois para esse trabalho
 não fizemos nada pensando em tela grande, então pode ficar estranho.
 
-Para ver o protótipo, entre nesse link: [Projeto IHC Figma](https://www.figma.com/proto/0za7rLboUmT0UfFYSLZ4jq/IHC?node-id=7%3A0&scaling=scale-down)
+Para ver o protótipo, entre nesse link: [Projeto IHC Figma](https://www.figma.com/proto/0za7rLboUmT0UfFYSLZ4jq/IHC?node-id=7%3A0&scaling=scale-down). Dica: as coisas são clicáveis. Na dúvida
+do que é ou não, clique em qualquer lugar. Tudo que piscar azul pode ser clicado
 
 As telas implementadas estão exatamente iguais ao protótipo, mas se quiser rodar localmente para ver o banco
 de dados funcionando, o siga o guia abaixo: 
