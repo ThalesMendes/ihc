@@ -1,5 +1,5 @@
-##Trabalho IHC
-###Pró Inclusão JF: Mobile
+## Trabalho IHC
+### Pró Inclusão JF: Mobile
 
 Nós criamos um protótipo interativo no Figma e também implementamos as quase todas as telas
 que estão no protótipo.
@@ -13,7 +13,7 @@ Para ver o protótipo, entre nesse link: [Projeto IHC Figma](https://www.figma.c
 As telas implementadas estão exatamente iguais ao protótipo, mas se quiser rodar localmente para ver o banco
 de dados funcionando, o siga o guia abaixo: 
 
-####Rodando o projeto localmente
+#### Rodando o projeto localmente
 1. Baixar/clonar o projeto
 2. Certifique-se de que o  [Composer](https://getcomposer.org/) está instalado na sua máquina
 e rode o comando `composer install` na pasta raiz do projeto
